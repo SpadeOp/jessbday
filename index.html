@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jess Babyy</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('assets/bgbg.gif') no-repeat center center fixed; /* Replace with your GIF file */
+            background-size: cover; /* Adjusts the size of the GIF to cover the whole screen */
+        }
+        /* Add any additional styles for your container or buttons here */
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            position: relative; /* Makes it easier to position items */
+        }
+        .btn {
+            margin: 10px; /* Spacing between buttons */
+        }
+    </style>
+</head>
+<body>
+    <img src="assets/date.gif" alt="date?" class="header-img" />
+    <div class="container" id="container">
+        <img src="assets/erm-fingers.gif" alt="please" class="image-1" />
+        <img src="assets/oh-yay.gif" alt="yes" class="image-2 hide" />
+        <button class="btn btn-yes">Yes</button>
+        <button class="btn btn-no">No</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
